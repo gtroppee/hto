@@ -18,10 +18,15 @@ gem 'hto', git: "git://github.com/gtroppee/hto.git"
 There are basically 3 possibilities when working with this gem, based on the provided input:
 
 **Hash**
+
 Returns an instance of HtoItem, with all its peculiarities (see below)
+
 **Array of hashes**
+
 Returns an instance of HtoCollection (basically an array of HtoItem instances)
+
 **Anything else**
+
 Returns the input as is
 
 ## How it works

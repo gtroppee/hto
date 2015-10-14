@@ -15,6 +15,6 @@ class Hto < OpenStruct
     end
 
     def self.is_array_of_hashes?(data)
-      data.is_a?(Array) && data.first.is_a?(Hash)
+      data.is_a?(Array) && is_hash?(data.first)
     end
 end
